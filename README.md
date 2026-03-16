@@ -13,11 +13,9 @@
 
 ## 🔗 Links
 
-- 🚀 **Deploy (frontend):** [dashboard-financeiro-lyart-chi.vercel.app](https://dashboard-financeiro-lyart-chi.vercel.app)
-- 🚀 **Deploy (API):** [dashboard-financeiro-api-raf1.onrender.com](https://dashboard-financeiro-api-raf1.onrender.com)
-- 🎥 **Vídeo demo:** [link aqui](#)
+- 🚀 **Deploy:** [dashboard-financeiro-lyart-chi.vercel.app](https://dashboard-financeiro-lyart-chi.vercel.app)
 
-> ⚠️ A API está hospedada no plano gratuito do Render — a instância "dorme" após um tempo sem uso. A primeira requisição após a inatividade pode levar até ~50 segundos para responder.
+> ⚠️ O backend está hospedado no plano gratuito do Render — a instância "dorme" após um tempo sem uso. A primeira requisição após a inatividade pode levar até ~50 segundos para responder.
 
 ## 🧠 Sobre o projeto
 
