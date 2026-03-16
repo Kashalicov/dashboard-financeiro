@@ -7,9 +7,7 @@
 ![react](https://img.shields.io/badge/react-18-61dafb)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
-## 🖼️ Capa
-
-![capa do projeto](./docs/cover.png)
+> 🌱 Projeto de aprendizado, feito enquanto eu estudava construção de APIs e visualização de dados com React/Chart.js.
 
 ## 🔗 Links
 
@@ -31,12 +29,6 @@ Controlar receitas e despesas pessoais (ou de um pequeno negócio) costuma ficar
 - Filtro de transações por mês na API (`?mes=AAAA-MM`)
 - Script de seed para popular o banco com dados de exemplo
 - Testes de integração cobrindo validações e cálculos de resumo
-
-## 🖥️ Prints
-
-| Dashboard | Cadastro de transação | Tabela de transações |
-|---|---|---|
-| ![dashboard](./docs/screenshot1.png) | ![form](./docs/screenshot2.png) | ![tabela](./docs/screenshot3.png) |
 
 ## 🛠️ Tecnologias
 
