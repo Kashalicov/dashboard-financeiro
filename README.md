@@ -30,6 +30,10 @@ Controlar receitas e despesas pessoais (ou de um pequeno negócio) costuma ficar
 - Script de seed para popular o banco com dados de exemplo
 - Testes de integração cobrindo validações e cálculos de resumo
 
+## 🖥️ Prints
+
+![dashboard](./docs/dashboard.png)
+
 ## 🛠️ Tecnologias
 
 **Backend**
