@@ -21,4 +21,22 @@ db.exec(`
   );
 `);
 
+function seedDadosExemplo() {
+  const { total } = db.prepare("SELECT COUNT(*) AS total FROM transacoes").get();
+  if (total > 0) return;
+
+  const transacoesExemplo = require("./data/transacoesExemplo");
+  const insercao = db.prepare(
+    "INSERT INTO transacoes (descricao, valor, tipo, categoria, data) VALUES (@descricao, @valor, @tipo, @categoria, @data)"
+  );
+  const inserirTodas = db.transaction((transacoes) => {
+    for (const transacao of transacoes) insercao.run(transacao);
+  });
+  inserirTodas(transacoesExemplo);
+}
+
+if (process.env.NODE_ENV !== "test") {
+  seedDadosExemplo();
+}
+
 module.exports = db;

@@ -13,7 +13,7 @@
 
 - 🚀 **Deploy:** [dashboard-financeiro-lyart-chi.vercel.app](https://dashboard-financeiro-lyart-chi.vercel.app)
 
-> ⚠️ O backend está hospedado no plano gratuito do Render — a instância "dorme" após um tempo sem uso. A primeira requisição após a inatividade pode levar até ~50 segundos para responder.
+> ⚠️ O backend está hospedado no plano gratuito do Render. Um workflow no GitHub Actions faz um ping a cada 10 min para manter a instância acordada, mas a primeira requisição ainda pode ocasionalmente levar alguns segundos a mais para responder.
 
 ## 🧠 Sobre o projeto
 
@@ -27,7 +27,7 @@ Controlar receitas e despesas pessoais (ou de um pequeno negócio) costuma ficar
 - Gráfico de rosca com despesas agrupadas por categoria
 - Listagem e exclusão de transações
 - Filtro de transações por mês na API (`?mes=AAAA-MM`)
-- Script de seed para popular o banco com dados de exemplo
+- Seed automático de dados de exemplo quando o banco está vazio (ex: logo após um deploy)
 - Testes de integração cobrindo validações e cálculos de resumo
 
 ## 🖥️ Prints
@@ -78,8 +78,9 @@ cd dashboard-financeiro/backend
 
 cp .env.example .env
 npm install
-npm run seed     # popula o banco com transações de exemplo (opcional)
 npm run dev
+# o banco já vem populado automaticamente com dados de exemplo na primeira execução
+# para resetar os dados de exemplo manualmente: npm run seed
 # API disponível em http://localhost:3334
 ```
 
