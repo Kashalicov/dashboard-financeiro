@@ -118,4 +118,5 @@ Esse projeto foi minha primeira experiência estruturando queries SQL de agrega�
 
 **Júnior Rodrigues**
 Coordenador de T.I. na Fundação Banco de Olhos | Estudante de Ciência da Computação
-[LinkedIn](https://www.linkedin.com/in/jrkdev/) · [GitHub](https://github.com/Kashalicov)
+
+📫 [LinkedIn](https://www.linkedin.com/in/jrkdev/) · [GitHub](https://github.com/Kashalicov)
